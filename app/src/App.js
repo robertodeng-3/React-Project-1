@@ -1,14 +1,13 @@
-import Modal from './componants/Modal';
-import Todo from './componants/Todo';
-import Backdrop from './componants/Backdrop';
+import Selection from './componants/Selection';
 
 function App() {
   return (
     <div>
-      <h1>My Todos</h1>
-          <Todo text='Learn React' />
-          <Modal />
-          <Backdrop />
+      <h1>Selection</h1>
+          <Selection text='BMW' />
+          <Selection text='Ford' />
+          <Selection text='Renault' />
+        
     </div>
   );
 }
